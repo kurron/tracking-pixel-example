@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5f31a1d3-f954-41a0-a0c2-698a4fb95a51" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pixel-functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pixel-functions.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,8 +21,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="28" lean-forward="true" selection-start-line="26" selection-end-line="28" />
+            <state relative-caret-position="475">
+              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -32,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
-              <caret line="13" column="68" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="68" />
+              <caret line="13" column="68" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -40,7 +39,7 @@
       <file leaf-file-name="pixel-functions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/pixel-functions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="912">
               <caret line="48" column="50" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="50" />
             </state>
           </provider>
@@ -77,6 +76,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -88,7 +88,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -123,7 +122,8 @@
       <updated>1523298746212</updated>
       <workItem from="1523298747450" duration="3565000" />
       <workItem from="1523302675484" duration="3719000" />
-      <workItem from="1523367861340" duration="5346000" />
+      <workItem from="1523367861340" duration="5439000" />
+      <workItem from="1523383081908" duration="1113000" />
     </task>
     <task id="LOCAL-00001" summary="The page and script loads but I haven't figured out how to invoke the functions yet.">
       <created>1523307059783</created>
@@ -136,20 +136,20 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12630000" />
+    <option name="totallyTimeSpent" value="13836000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="256" y="40" width="1644" height="950" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21185917" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21185917" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32962963" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32962963" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -177,6 +177,27 @@
     <option name="LAST_COMMIT_MESSAGE" value="The page and script loads but I haven't figured out how to invoke the functions yet." />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="68" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/pixel-functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="48" column="50" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -222,21 +243,24 @@
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="13" column="68" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="68" />
+          <caret line="13" column="68" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/pixel-functions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="912">
           <caret line="48" column="50" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="50" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/robots.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="28" lean-forward="true" selection-start-line="26" selection-end-line="28" />
+        <state relative-caret-position="475">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
         </state>
       </provider>
     </entry>
