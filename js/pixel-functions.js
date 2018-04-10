@@ -6,6 +6,7 @@
     // if your pixel will be used in multiple places, unique pixel ids will be crucial to
     // identify which piece of data came from which place
     api.init = function(pId) {
+        console.debug( "init called");
         pixelId = pId;
     };
 
@@ -14,20 +15,24 @@
     // functions which should take in an object with key and value as argument (this will form your
     // query parameters):
     api.addName = function(n) {
+        console.debug( "push called");
         data.push(n);
     };
 
     api.addCompany = function(c) {
+        console.debug( "addCompany called");
         data.push(c);
     };
 
     api.addPosition = function(p) {
+        console.debug( "addPosition called");
         data.push(p);
     };
 
     // include a function to turn all the data you've collected in the data object into query
     // parameters to append to the url for the pixel on your server
     api.toQueryString = function() {
+        console.debug( "toQueryString called");
         var s = [];
         Object.keys(data).forEach(function(key) {
             s.push(key + "=" + encodeURIComponent(data[key]));
@@ -38,6 +43,7 @@
     // include a function to add the query parameters to your pixel url and to finally append
     // the resulting pixel URL to your document
     api.send = function() {
+        console.debug( "send called");
         var pixel = document.createElement("img");
         var queryParams = api.toQueryString();
         pixel.src = "http://httpbin.org/image/svg?" + queryParams;
@@ -46,6 +52,7 @@
 
     // pull functions off of the global queue and execute them
     var execute = function() {
+        console.debug( "execute called");
         // while the global queue is not empty, remove the first element and execute the
         // function with the parameter it provides
         // (assuming that the queued element is a 2 element list of the form

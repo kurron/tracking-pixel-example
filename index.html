@@ -27,8 +27,14 @@
         <script src="js/plugins.js"></script>
         <script src="js/main.js" type="text/javascript" ></script>
         <script type="text/javascript">
-            api.addName( "bob" )
-            api.send()
+            function track(data) {
+                console.debug( "track called");
+                const img = new Image();
+                img.src = encodeURI( 'http://httpbin.org/image/svg?' + data );
+                img.style.display = 'none';
+                document.body.appendChild( img );
+            }
+            track( "foo=bar&baz=biz" )
         </script>
     </body>
 </html>

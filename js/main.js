@@ -1,4 +1,6 @@
 (function() {
+    console.debug( "main called");
+
     // initialize the global queue, 'q' which is attached to a 'crl8' object
     if (!('crl8' in window)) {
         window.crl8 = function() {
