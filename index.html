@@ -22,12 +22,12 @@
             function track(data) {
                 console.debug( "track called" );
                 const img = new Image();
-                img.src = encodeURI( 'http://httpbin.org/image/png?' + data );
+                img.src = encodeURI( 'https://nkkmfsfq10.execute-api.us-west-1.amazonaws.com/adpevents/?' + data );
                 img.style.display = 'none';
                 document.body.appendChild( img );
             }
             // the query parameters will be processed by the tracking pixel endpoint
-            track( "chnl=some-chnl&eid=some-eid&aid=some-aid&pos=some-position&sid=some-side&etype=some-etyp&uid=some-uid&tid=some-tid&edate=some-edate&chnltype=some-chnltype&viewable=some-viewable&elm_id=some-elm_id&etime=some-etime&heid=some-heid" )
+            track( "eid=from-pixel&chnl=from-pixel&chnltype=from-pixel&etype=from-pixel&aid=from-pixel&uid=from-pixel&heid=from-pixel&sid=from-pixel&pos=1234&viewable=true&elmid=5678&tid=some-tid&ronbo=Logan" )
         </script>
     </body>
 </html>

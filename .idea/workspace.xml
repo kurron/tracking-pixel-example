@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5f31a1d3-f954-41a0-a0c2-698a4fb95a51" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,8 +20,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+            <state relative-caret-position="551">
+              <caret line="29" column="175" lean-forward="true" selection-start-line="29" selection-start-column="175" selection-end-line="29" selection-end-column="175" />
             </state>
           </provider>
         </entry>
@@ -66,8 +65,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="256" />
-    <option name="y" value="40" />
+    <option name="x" value="57" />
+    <option name="y" value="110" />
     <option name="width" value="1644" />
     <option name="height" value="950" />
   </component>
@@ -123,7 +122,7 @@
       <workItem from="1523298747450" duration="3565000" />
       <workItem from="1523302675484" duration="3719000" />
       <workItem from="1523367861340" duration="5439000" />
-      <workItem from="1523383081908" duration="1113000" />
+      <workItem from="1523383081908" duration="6171000" />
     </task>
     <task id="LOCAL-00001" summary="The page and script loads but I haven't figured out how to invoke the functions yet.">
       <created>1523307059783</created>
@@ -132,14 +131,28 @@
       <option name="project" value="LOCAL" />
       <updated>1523307059783</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="I finally have a working tracking pixel example.">
+      <created>1523384269836</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1523384269836</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Using more realistic parameters.">
+      <created>1523384915694</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1523384915694</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13836000" />
+    <option name="totallyTimeSpent" value="18894000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="256" y="40" width="1644" height="950" extended-state="0" />
+    <frame x="57" y="110" width="1644" height="950" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21185917" />
@@ -174,7 +187,9 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="The page and script loads but I haven't figured out how to invoke the functions yet." />
-    <option name="LAST_COMMIT_MESSAGE" value="The page and script loads but I haven't figured out how to invoke the functions yet." />
+    <MESSAGE value="I finally have a working tracking pixel example." />
+    <MESSAGE value="Using more realistic parameters." />
+    <option name="LAST_COMMIT_MESSAGE" value="Using more realistic parameters." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -259,8 +274,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        <state relative-caret-position="551">
+          <caret line="29" column="175" lean-forward="true" selection-start-line="29" selection-start-column="175" selection-end-line="29" selection-end-column="175" />
         </state>
       </provider>
     </entry>
