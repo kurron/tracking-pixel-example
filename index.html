@@ -18,16 +18,24 @@
         <!-- Add your site or application content here -->
         <p>Tracking pixel example.  The downloaded image is invisible.  The query
             parameters on the image URL are the data that is stored in the tracking system.</p>
+        <script type="text/javascript" src="https://s3.amazonaws.com/jvmguy-tracking-pixel/pixel-functions.js"></script>
         <script type="text/javascript">
-            function track(data) {
-                console.debug( "track called" );
-                const img = new Image();
-                img.src = encodeURI( 'https://nkkmfsfq10.execute-api.us-west-1.amazonaws.com/adpevents/?' + data );
-                img.style.display = 'none';
-                document.body.appendChild( img );
-            }
-            // the query parameters will be processed by the tracking pixel endpoint
-            track( "eid=from-pixel&chnl=from-pixel&chnltype=from-pixel&etype=from-pixel&aid=from-pixel&uid=from-pixel&heid=from-pixel&sid=from-pixel&pos=1234&viewable=true&elmid=5678&tid=some-tid&ronbo=Logan" )
+            var toTrack = {
+                "eid"      :  "from-pixel",
+                "chnl"     :  "from-pixel",
+                "chnltype" :  "from-pixel",
+                "etype"    :  "from-pixel",
+                "aid"      :  "from-pixel",
+                "uid"      :  "from-pixel",
+                "heid"     :  "from-pixel",
+                "sid"      :  "from-pixel",
+                "pos"      :  1234,
+                "viewable" :  true,
+                "elmid"    :  5678,
+                "tid"      :  "from-pixel",
+                "ronbo"    :  "Tara",
+            };
+            adpTrack( toTrack )
         </script>
     </body>
 </html>
