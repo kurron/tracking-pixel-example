@@ -20,8 +20,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            <state relative-caret-position="262">
+              <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -29,8 +29,8 @@
       <file leaf-file-name="pixel-functions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/pixel-functions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="21" />
+            <state relative-caret-position="266">
+              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -43,8 +43,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/pixel-functions.js" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/js/pixel-functions.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -125,7 +125,7 @@
       <workItem from="1523367861340" duration="5439000" />
       <workItem from="1523383081908" duration="6171000" />
       <workItem from="1523461604742" duration="4059000" />
-      <workItem from="1523539845437" duration="656000" />
+      <workItem from="1523539845437" duration="9188000" />
     </task>
     <task id="LOCAL-00001" summary="The page and script loads but I haven't figured out how to invoke the functions yet.">
       <created>1523307059783</created>
@@ -155,11 +155,25 @@
       <option name="project" value="LOCAL" />
       <updated>1523480874246</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Verify that multiple attributes work.">
+      <created>1523540592545</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1523540592545</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added support for calling the tracking pixel via POST.">
+      <created>1523556357053</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1523556357053</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23609000" />
+    <option name="totallyTimeSpent" value="32141000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="162" y="93" width="1644" height="950" extended-state="0" />
@@ -172,7 +186,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32848486" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.5284848" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -219,7 +233,9 @@
     <MESSAGE value="I finally have a working tracking pixel example." />
     <MESSAGE value="Using more realistic parameters." />
     <MESSAGE value="A more convenient form.  Just import the JS file and supply the tracking function with a JSON structure and you are good to go." />
-    <option name="LAST_COMMIT_MESSAGE" value="A more convenient form.  Just import the JS file and supply the tracking function with a JSON structure and you are good to go." />
+    <MESSAGE value="Verify that multiple attributes work." />
+    <MESSAGE value="Added support for calling the tracking pixel via POST." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added support for calling the tracking pixel via POST." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -322,15 +338,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/pixel-functions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="21" />
+        <state relative-caret-position="266">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        <state relative-caret-position="262">
+          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
         </state>
       </provider>
     </entry>

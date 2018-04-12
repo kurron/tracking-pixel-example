@@ -18,8 +18,7 @@
         <!-- Add your site or application content here -->
         <p>Tracking pixel example.  The downloaded image is invisible.  The query
             parameters on the image URL are the data that is stored in the tracking system.</p>
-        <!--<script type="text/javascript" src="https://s3.amazonaws.com/jvmguy-tracking-pixel/pixel-functions.js"></script>-->
-        <script type="text/javascript" src="js/pixel-functions.js"></script>
+        <script type="text/javascript" src="https://s3-us-west-1.amazonaws.com/adp-tracking-pixel/pixel-functions.js"></script>
         <script type="text/javascript">
             var toTrack = {
                 "eid"      :  "from-pixel",
@@ -30,13 +29,14 @@
                 "uid"      :  "from-pixel",
                 "heid"     :  "from-pixel",
                 "sid"      :  "from-pixel",
-                "pos"      :  1234,
+                "pos"      :  5678,
                 "viewable" :  true,
                 "elmid"    :  "some-elmid",
                 "tid"      :  "from-pixel",
                 "wife"     :  "Tara",
                 "daughter" :  "Devan",
                 "son"      :  "Logan",
+                "dog"      :  "Natalie"
             };
             //adpTrackGet( toTrack )
             adpTrackPost( toTrack )
