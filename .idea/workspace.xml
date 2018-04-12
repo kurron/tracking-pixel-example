@@ -4,6 +4,7 @@
     <list default="true" id="5f31a1d3-f954-41a0-a0c2-698a4fb95a51" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/pixel-functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pixel-functions.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,20 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+            <state relative-caret-position="623">
+              <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pixel-functions.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pixel-functions.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/pixel-functions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+            <state relative-caret-position="304">
+              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -44,8 +45,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/js/pixel-functions.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/pixel-functions.js" />
       </list>
     </option>
   </component>
@@ -125,7 +126,7 @@
       <workItem from="1523367861340" duration="5439000" />
       <workItem from="1523383081908" duration="6171000" />
       <workItem from="1523461604742" duration="4059000" />
-      <workItem from="1523539845437" duration="9188000" />
+      <workItem from="1523539845437" duration="11308000" />
     </task>
     <task id="LOCAL-00001" summary="The page and script loads but I haven't figured out how to invoke the functions yet.">
       <created>1523307059783</created>
@@ -169,11 +170,25 @@
       <option name="project" value="LOCAL" />
       <updated>1523556357053</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Grab the JS files from the ADP bucket.">
+      <created>1523558666187</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1523558666187</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Attempted to document usage.">
+      <created>1523561607934</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1523561607934</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32141000" />
+    <option name="totallyTimeSpent" value="34261000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="162" y="93" width="1644" height="950" extended-state="0" />
@@ -235,7 +250,9 @@
     <MESSAGE value="A more convenient form.  Just import the JS file and supply the tracking function with a JSON structure and you are good to go." />
     <MESSAGE value="Verify that multiple attributes work." />
     <MESSAGE value="Added support for calling the tracking pixel via POST." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added support for calling the tracking pixel via POST." />
+    <MESSAGE value="Grab the JS files from the ADP bucket." />
+    <MESSAGE value="Attempted to document usage." />
+    <option name="LAST_COMMIT_MESSAGE" value="Attempted to document usage." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -336,17 +353,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/pixel-functions.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        <state relative-caret-position="623">
+          <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/pixel-functions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        <state relative-caret-position="304">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
         </state>
       </provider>
     </entry>

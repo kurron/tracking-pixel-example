@@ -15,26 +15,26 @@
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-        <!-- Add your site or application content here -->
         <p>Tracking pixel example.  If you are using the GET form of the pixel, then the downloaded image is invisible.
         The JSON structure describes the data and can be used for either the GET or POST forms.  Ad hoc attributes
         are acceptable and will be stored in the "ancillary" field.</p>
         <script type="text/javascript" src="https://s3-us-west-1.amazonaws.com/adp-tracking-pixel/pixel-functions.js"></script>
         <script type="text/javascript">
+            const simulatedEventID = Math.round( (new Date()).getTime() / 1000 ).toString( 10 );
             const toTrack = {
-                "eid"      :  "some-eid",   // External event id to use for tracking. ex: email send id, bid-request id, site view id
-                "chnl"     :  "e-mail",     // Channel triggering the event. ex: email, display site
-                "chnltype" :  "abi",        // Channel Type. Example: aba
-                "etype"    :  "OPEN",       // Event Type. ex OPEN, VIEW CLICK
-                "aid"      :  "some-aid",   // ADP asset id
-                "uid"      :  "some-uid",   // User id
-                "heid"     :  "some-heid",  // Hashed e-mail id
-                "sid"      :  "some-sid",   // Session ID
-                "pos"      :  5678,         // Position of the asset
-                "viewable" :  true,         // Was the asset viewable
-                "elmid"    :  "some-elmid", // Element ID containing the asset
-                "tid"      :  "some-tid",   // Template ID
-                "wife"     :  "Tara",       // arbitrary attributes
+                "eid"      :  simulatedEventID, // External event id to use for tracking. ex: email send id, bid-request id, site view id
+                "chnl"     :  "e-mail",         // Channel triggering the event. ex: email, display site
+                "chnltype" :  "abi",            // Channel Type. Example: aba
+                "etype"    :  "OPEN",           // Event Type. ex OPEN, VIEW CLICK
+                "aid"      :  "some-aid",       // ADP asset id
+                "uid"      :  "some-uid",       // User id
+                "heid"     :  "some-heid",      // Hashed e-mail id
+                "sid"      :  "some-sid",       // Session ID
+                "pos"      :  5678,             // Position of the asset
+                "viewable" :  true,             // Was the asset viewable
+                "elmid"    :  "some-elmid",     // Element ID containing the asset
+                "tid"      :  "some-tid",       // Template ID
+                "wife"     :  "Tara",           // arbitrary attributes
                 "daughter" :  "Devan",
                 "son"      :  "Logan",
                 "dog"      :  "Natalie"
