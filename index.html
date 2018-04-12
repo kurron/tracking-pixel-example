@@ -18,7 +18,7 @@
         <p>Tracking pixel example.  If you are using the GET form of the pixel, then the downloaded image is invisible.
         The JSON structure describes the data and can be used for either the GET or POST forms.  Ad hoc attributes
         are acceptable and will be stored in the "ancillary" field.</p>
-        <script type="text/javascript" src="https://s3-us-west-1.amazonaws.com/adp-tracking-pixel/pixel-functions.js"></script>
+        <script type="text/javascript" src="https://dm1s9o9j6qngv.cloudfront.net/pixel-functions.js"></script>
         <script type="text/javascript">
             const simulatedEventID = Math.round( (new Date()).getTime() / 1000 ).toString( 10 );
             const toTrack = {
@@ -40,8 +40,10 @@
                 "dog"      :  "Natalie"
             };
 
-            // use GET via the img tag, places a non-rendered image into the DOM
-            //adpTrackGet( toTrack )
+            // use ONE of these forms to push the tracking data
+
+            // use a GET via the img tag, places a non-rendered image into the DOM
+            adpTrackGet( toTrack );
 
             // use a POST to push the data, will incur an OPTIONS call due to CORS negotiation
             adpTrackPost( toTrack )
